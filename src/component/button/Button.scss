@@ -1,0 +1,13 @@
+.btn-component {
+    border-radius   : 25px;
+    font-size       : 16px;
+    padding         : 12px 23px;
+    border          : none;
+    cursor          : pointer;
+    background-color: #f69435;
+    color           : rgb(255, 255, 255);
+
+    &:hover {
+        box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 20%);
+    }
+}

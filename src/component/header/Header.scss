@@ -1,0 +1,87 @@
+.wapp-header {
+    background: #ffffff;
+
+    height          : 60px;
+    background-color: #ffffff;
+    display         : flex;
+    z-index         : 10;
+    align-items     : center;
+
+    .header-ctn {
+        position       : fixed;
+        top            : 0;
+        display        : flex;
+        align-items    : center;
+        margin         : 0 auto;
+        width          : 100%;
+        padding        : 0 10px;
+        width          : 100%;
+        justify-content: center;
+        background     : #ffffff;
+        box-shadow     : 0px 0px 7px 3px rgb(0 0 0 / 15%);
+        z-index        : 9;
+        height         : inherit;
+
+        .header-left {
+            width: 15%;
+
+            img {
+                cursor: pointer;
+                height: 100%;
+                width : 86%;
+            }
+        }
+
+        .header-nav {
+            width     : 40%;
+            align-self: center;
+
+            nav {
+                ul {
+                    list-style-type: none;
+                    display        : flex;
+                    justify-content: space-between;
+
+                    a {
+                        font-size      : 1.125rem;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .header-right {
+            width     : 30%;
+            text-align: center;
+
+            .btn-book {
+                border-radius   : 25px;
+                font-size       : 16px;
+                padding         : 8px 23px;
+                border          : none;
+                cursor          : pointer;
+                background-color: #f69435;
+                color           : #ffffff;
+                text-align      : center;
+                margin-right    : 10px;
+
+                &:hover {
+                    box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 20%);
+
+                }
+            }
+
+            .btn-login {
+                font-size : 16px;
+                border    : none;
+                background: transparent;
+
+                &:hover {
+                    color : orange;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+.footer-ctn {
+    display        : flex;
+    justify-content: space-between;
+    width          : 85%;
+    margin         : 0 auto;
+    padding        : 60px 0px;
+
+    .footer-ctn-left {
+        width: 20%;
+    }
+
+    .footer-ctn-centent {
+        width          : 60%;
+        display        : flex;
+        justify-content: space-around;
+    }
+
+    .footer-ctn-right {
+        width     : 20%;
+        text-align: center;
+    }
+}

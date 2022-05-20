@@ -1,0 +1,130 @@
+.who-we-are {
+    background-color: rgb(245, 245, 245);
+    padding         : 20px;
+    margin-top      : 30px;
+    text-align      : center;
+    border-radius   : 20px;
+
+    .advertisement {
+        display        : flex;
+        justify-content: space-between;
+        margin-bottom  : 70px;
+
+        h2 {
+            color      : rgb(246, 148, 53);
+            font-size  : 60px;
+            font-weight: 600;
+        }
+    }
+
+    .what-we-do-ctn {
+
+        margin: 60px 0px;
+
+        .what-we-do-title {
+            margin: 20px;
+        }
+
+        .what-we-do {
+            display: flex;
+
+            .what-we-do-left {
+                text-align: start;
+
+                h1 {
+
+                    margin-top: 2px;
+                }
+
+                .what-we-do-left-des {
+                    margin     : 30px 0px;
+                    font-size  : 16px;
+                    line-height: 24px;
+                    width      : 78%;
+                }
+            }
+
+            .what-we-do-img {
+                img {
+                    width : 100%;
+                    height: 100%;
+
+                }
+            }
+        }
+    }
+
+    .page-builder {
+        gap    : 26px;
+        display: flex;
+
+        .page-builder-right {
+
+            .page-builder-des {
+                text-align: start;
+            }
+
+            .page-builder-link {
+                display       : flex;
+                flex-direction: column;
+                text-align    : start;
+
+                a {
+
+                    color          : rgb(246, 148, 53);
+                    font-size      : 16px;
+                    line-height    : 24px;
+                    font-weight    : 700;
+                    padding-top    : 5px;
+                    padding-bottom : 5px;
+                    width          : 100%;
+                    text-decoration: none;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+
+                button {
+                    width: 70%;
+
+                    background-color: rgb(246, 148, 53);
+                    color           : rgb(255, 255, 255);
+                    border          : none;
+                    border-radius   : 25px;
+                    text-align      : center;
+                    margin          : 30px auto 15px 15px;
+                    cursor          : pointer;
+                    align-items     : center;
+                    font-family     : "Proxima Nova";
+                    font-size       : 16px;
+                    line-height     : 24px;
+                    font-weight     : 700;
+                    height          : 45px;
+                    text-decoration : none;
+                }
+            }
+        }
+    }
+
+    .magento-mobile-app {
+        margin : 60px 0px;
+        display: flex;
+        gap    : 30px;
+
+        .magento-mobile-app-left {
+            .magento-mobile-app-left-tite {
+                text-align: start;
+            }
+
+            .magento-mobile-app-left-dess {
+                text-align: start;
+                margin    : 30px 0px;
+            }
+
+            .btn-component {
+                float: left;
+            }
+        }
+    }
+}
